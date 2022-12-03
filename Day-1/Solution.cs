@@ -47,10 +47,4 @@ class Day1CalorieCounter
         calorie_count.Reverse();
         return calorie_count.Take(3).Sum();
     }
-
-    public static void Main()
-    {
-        Console.WriteLine("Part 1: " + Part1().ToString());
-        Console.WriteLine("Part 2: " + Part2().ToString());
-    }
 }
