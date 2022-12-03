@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-public class Day2RockPaperScissors
+public class RockPaperScissors
 {
     public static string file_name = "../../../Day-2/Input.txt";
     public static int Part1()

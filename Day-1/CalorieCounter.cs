@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-class Day1CalorieCounter
+class CalorieCounter
 {
     public static string file_name = "../../../Day-1/Input.txt";
     public static int Part1()
