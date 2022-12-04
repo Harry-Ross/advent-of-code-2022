@@ -102,9 +102,4 @@ public class RockPaperScissors
 
         return score;
     }
-
-    public static void Main()
-    {
-        Console.WriteLine(Part2());
-    }
 }
