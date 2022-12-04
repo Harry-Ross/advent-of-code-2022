@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-public class RucksackReorganisation
+﻿public class RucksackReorganisation
 {
     public static string file_name = "../../../Day-3/Input.txt";
     public static int Part1()
@@ -79,10 +77,5 @@ public class RucksackReorganisation
             total += ConvertToPriority(GetCommonChar(current_lines));
         }
         return total;
-    }
-
-    public static void Main(string[] args)
-    {
-        Console.WriteLine(Part2());
     }
 }
