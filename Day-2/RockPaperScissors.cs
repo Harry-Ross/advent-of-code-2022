@@ -36,8 +36,4 @@ public class RockPaperScissors
 
         return 6;
     }
-    public static void Main()
-    {
-        Console.WriteLine(Part1());
-    }
 }
