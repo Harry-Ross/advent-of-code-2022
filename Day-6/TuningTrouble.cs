@@ -5,14 +5,12 @@
     public static int Part1()
     {
         string input_line = File.ReadAllLines(file_name)[0];
-
         return Finder(input_line, 4);
     }
 
     public static int Part2()
     {
         string input_line = File.ReadAllLines(file_name)[0];
-
         return Finder(input_line, 14);
     }
 
@@ -40,6 +38,7 @@
             } 
             letters[letter - 'a'] = true;
         }
+
         return true;
     }
 }
