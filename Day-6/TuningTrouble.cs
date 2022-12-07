@@ -1,4 +1,6 @@
-﻿class TuningTrouble
+﻿using System.Diagnostics;
+
+class TuningTrouble
 {
     public static string file_name = "../../../Day-6/Input.txt";
 
@@ -29,10 +31,10 @@
     private static bool IsUnique(string input)
     {
         bool[] letters = new bool[26];
-        
+
         foreach (char letter in input)
         {
-            if (letters[letter - 'a'] == true)
+            if (letters[letter - 'a'])
             {
                 return false;
             } 
@@ -41,4 +43,5 @@
 
         return true;
     }
+
 }
